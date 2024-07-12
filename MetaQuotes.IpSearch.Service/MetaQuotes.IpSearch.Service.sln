@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaQuotes.IpSearch.Service", "MetaQuotes.Service\MetaQuotes.IpSearch.Service.csproj", "{9E8C9357-4698-4417-87F5-A1850E5A2FAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaQuotes.IpSearch.Models", "MetaQuotes.IpSearch.Models\MetaQuotes.IpSearch.Models.csproj", "{6016DFB3-2DCE-4924-97DF-D03588A9E86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaQuotes.IpSearch.Managers", "MetaQuotes.IpSearch.Managers\MetaQuotes.IpSearch.Managers.csproj", "{9F87CF6E-40FD-442C-91D3-2E2EE772C7E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4F36B4F1-75AE-410D-974B-43BDDB3AD319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaQuotes.IpSearch.UnitTests", "MetaQuotes.IpSearch.UnitTests\MetaQuotes.IpSearch.UnitTests.csproj", "{AAECF217-EEE0-4C4D-BA48-098B7FE99CF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E8C9357-4698-4417-87F5-A1850E5A2FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8C9357-4698-4417-87F5-A1850E5A2FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8C9357-4698-4417-87F5-A1850E5A2FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8C9357-4698-4417-87F5-A1850E5A2FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6016DFB3-2DCE-4924-97DF-D03588A9E86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6016DFB3-2DCE-4924-97DF-D03588A9E86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6016DFB3-2DCE-4924-97DF-D03588A9E86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6016DFB3-2DCE-4924-97DF-D03588A9E86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F87CF6E-40FD-442C-91D3-2E2EE772C7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F87CF6E-40FD-442C-91D3-2E2EE772C7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F87CF6E-40FD-442C-91D3-2E2EE772C7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F87CF6E-40FD-442C-91D3-2E2EE772C7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAECF217-EEE0-4C4D-BA48-098B7FE99CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAECF217-EEE0-4C4D-BA48-098B7FE99CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAECF217-EEE0-4C4D-BA48-098B7FE99CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAECF217-EEE0-4C4D-BA48-098B7FE99CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAECF217-EEE0-4C4D-BA48-098B7FE99CF3} = {4F36B4F1-75AE-410D-974B-43BDDB3AD319}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E52C052-9C20-4F25-B33C-6BF054BAC0E6}
+	EndGlobalSection
+EndGlobal
